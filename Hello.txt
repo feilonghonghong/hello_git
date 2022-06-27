@@ -13,7 +13,7 @@ git log      #查看提交commit记录
 git diff		#查看修改后的文件与最新提交的文件的不同
 git checkout -- .	#撤销未提交的修改
 
-git reset --hard [前七位版本号]     #回退到指定版本
+git reset --hard [前七位版本号]     #回退到指定版本，并删除后续的修改记录
 
 
 
